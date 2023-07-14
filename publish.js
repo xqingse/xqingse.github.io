@@ -2,7 +2,7 @@ var emails = [
     'contact@xqingse.com'
 ];
 var newestUrls = [
-    'https://xqingse.com'
+    'https://v.xqs1.com'
 ];
 var otherUrls = [
     'https://xqingse.github.io'
