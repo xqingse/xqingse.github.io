@@ -69,6 +69,13 @@ window.onload = function () {
     logoElem.innerHTML = 'X情色<span class="flag">视频</span>'
     mainElem.appendChild(logoElem);
 
+    // hot
+    var hotElem = document.createElement('div');
+    hotElem.setAttribute('class', 'field');
+    var hotHtmlStr = '<h4 class="title">热播推荐</h4><a href="' + newestUrls[0] + '" target="_blank"><img src="hot.jpg"></a>';
+    hotElem.innerHTML = hotHtmlStr;
+    mainElem.appendChild(hotElem);
+
     // newest urls
     var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问X情色视频'});
     mainElem.appendChild(newestFieldElem);
