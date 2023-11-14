@@ -3,6 +3,10 @@
     margin: 0;
 }
 
+h1 {
+    font-size: 1.5em;
+}
+
 body {
     background-color: #F8F9FA;
     color: #fff;
