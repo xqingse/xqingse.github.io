@@ -35,7 +35,7 @@ function createFieldElem(option) {
     var fieldClass = ['field', classStr].join(' ');
     fieldElem.setAttribute('class', fieldClass);
 
-    var titleElem = document.createElement('h4');
+    var titleElem = document.createElement('h2');
     titleElem.setAttribute('class', 'title');
     titleElem.innerHTML = title;
     fieldElem.appendChild(titleElem);
@@ -66,18 +66,11 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = 'X情色<span class="flag">视频</span>'
+    logoElem.innerHTML = '<h1 class="flag">X情色视频</h1>'
     mainElem.appendChild(logoElem);
 
-    // hot
-    var hotElem = document.createElement('div');
-    hotElem.setAttribute('class', 'field');
-    var hotHtmlStr = '<h4 class="title">热播推荐</h4><a href="' + newestUrls[0] + '" target="_blank"><img src="hot.jpg"></a>';
-    hotElem.innerHTML = hotHtmlStr;
-    mainElem.appendChild(hotElem);
-
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问X情色视频'});
+    var newestFieldElem = createFieldElem({title: 'X情色视频最新地址', items: newestUrls, text: '请使用https://协议访问X情色视频'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
@@ -89,7 +82,7 @@ window.onload = function () {
     mainElem.appendChild(mailFieldElem);
 
     // forever urls
-    var foreverFieldElem = createFieldElem({title: '永久地址', items: foreverUrls});
+    var foreverFieldElem = createFieldElem({title: 'X情色视频永久地址', items: foreverUrls});
     mainElem.appendChild(foreverFieldElem);
 
     // Description
