@@ -64,6 +64,11 @@ ul>li.text {
     font-weight: bold;
     color: #343A40;
 }
+
+a {
+    color: #2e69ff;
+}
+
 a, a:active, a:hover, a:focus, a:visited{
     color: inherit;
     text-decoration: none;
