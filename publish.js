@@ -2,6 +2,8 @@ var emails = [
     'contact@xqingse.com'
 ];
 var newestUrls = [
+    'https://hshgs.xqstv8.xyz',
+    'https://asdfwe.xqstv3.xyz',
     'https://gov.xqstv2.xyz',
     'https://gov.xqstv1.xyz',
     'https://hwer.shanlangtv.com',
