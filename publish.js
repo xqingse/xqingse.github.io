@@ -2,16 +2,7 @@ var emails = [
     'contact@xqingse.com'
 ];
 var newestUrls = [
-    'https://hshgs.xqstv8.xyz',
-    'https://asdfwe.xqstv3.xyz',
-    'https://gov.xqstv2.xyz',
-    'https://gov.xqstv1.xyz',
-    'https://hwer.shanlangtv.com',
-    'https://sdff.ouyetv.com',
-    'https://qwer.xqs4.com',
-    'https://tvtv.xqs3.com',
-    'https://ttvv.xqs2.com',
-    'https://v.xqs1.com'
+    'https://cdn.xqstv10.xyz'
 ];
 var otherUrls = [
     'https://xqingse.github.io'
