@@ -1,14 +1,14 @@
 var emails = [
-    'contact@xqingse.com'
+    'contact@xwuma.com'
 ];
 var newestUrls = [
-    'https://xqingse.com'
+    'https://xwuma.com'
 ];
 var otherUrls = [
     'https://xqingse.github.io'
 ];
 var foreverUrls = [
-    'https://xqingse.com'
+    'https://xwuma.com'
 ];
 var notices = [
     '* 我们推荐PC和Andriod手机用户使用Chrome(谷歌)浏览器访问，iPhone用户我们建议您使用手机自带Safria浏览器访问。',
